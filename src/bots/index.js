@@ -25,6 +25,10 @@ function init(socketInstance){
         if(notesCommands){
             notes.handleCommand(socketInstance, tmiClient, message, command, args, tags);
         }
+
+        // Twitch widgets
+        // 1. Busco todos lso comandos
+        // 2. Evaluo si el mensaje enviado tiene uno de esos comandos
     });
 }
 module.exports = { init } 
