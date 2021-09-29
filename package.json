@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server.js",
-    "run": "node src/server.js",
+    "start": "node ./src/server.js",
+    "run": "node ./src/server.js",
     "dev": "nodemon --watch src src/server.js"
   },
   "repository": {
