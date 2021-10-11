@@ -8,7 +8,7 @@ const tmiClient = new tmi.Client({
 		username: process.env.TWITCH_BOT_USER,
 		password: process.env.TWITCH_BOT_KEY
 	},
-	channels: [ process.env.TWITCH_CHANNEL, "fpiaggio"]
+	channels: [ process.env.TWITCH_CHANNEL ]
 });
 function init(socketInstance){
     tmiClient.connect();
